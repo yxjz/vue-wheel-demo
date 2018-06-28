@@ -1,0 +1,23 @@
+{
+  "name": "vue-wheel",
+  "version": "0.0.1",
+  "description": "z这是一个\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~这\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yxjz/vue-wheel-demo.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "yxjz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yxjz/vue-wheel-demo/issues"
+  },
+  "homepage": "https://github.com/yxjz/vue-wheel-demo#readme"
+}
