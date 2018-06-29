@@ -1,8 +1,6 @@
 <template>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-        <svg v-if="icon" class="icon">
-            <use :xlink:href="`#i-${icon}`"></use>
-        </svg>
+        <g-icon v-if="icon" :name="icon"></g-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -20,7 +18,7 @@
                 default:'left',
                 //属性检查器，用户传的值
                 validator(value){
-                return value !== left && value !== right ? false : true;
+                return value !== 'left' && value !== 'right' ? false : true;
 
                 }
             }
