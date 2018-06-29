@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <title>vue wheel</title>
     <style>
-        *{
-            margin: 0;padding: 0;box-sizing: border-box;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        html{
+
+        html {
             --button-height: 32px;
             --font-size: 14px;
             --button-bg: white;
@@ -19,16 +22,29 @@
         }
 
     </style>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
-
+    <g-button >
+        按钮
+    </g-button>
+    <g-button icon="dianzan" icon-position="right">
+        按钮
+    </g-button>
+    <g-button icon="dianzan" icon-position="left">
+        按钮
+    </g-button>
 </div>
 
 <script src="./src/app.js">
-
 </script>
+<script src="//at.alicdn.com/t/font_726839_u1njw9pyvo8.js"></script>
 
 
 </body>
