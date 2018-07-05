@@ -5,7 +5,7 @@
     <title>vue wheel</title>
     <style>
         * {
-            margin: 0;
+            /*margin: 0;*/
             padding: 0;
             box-sizing: border-box;
         }
@@ -35,13 +35,18 @@
     <g-button icon="dianzan" icon-position="right" :loading="loading3" @click="loading3=!loading3">
         按钮
     </g-button>
+    <g-button-group>
+        <g-button icon="left">上一页</g-button>
+        <g-button>更多</g-button>
+        <g-button icon="right" icon-position="right">下一页</g-button>
+    </g-button-group>
 
 
 </div>
 
 <script src="./src/app.js">
 </script>
-<script src="//at.alicdn.com/t/font_726839_0gcrwlz710ts.js"></script>
+<script src="//at.alicdn.com/t/font_726839_o44tllmuich.js"></script>
 
 
 </body>
