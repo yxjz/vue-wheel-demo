@@ -1,14 +1,14 @@
 {
   "name": "shanjiayuwu-1",
   "version": "0.0.3",
-    "description": "z这是一个\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~这\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUI框架",
-    "main": "dist/index.js",
-    "scripts": {
-      "dev-test": "parcel watch test/* --no-cache & karma start",
-      "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
-    },
-    "repository": {
-      "type": "git",
+  "description": "z这是一个\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~这\u001b[\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUI框架",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
     "url": "git+https://github.com/yxjz/vue-wheel-demo.git"
   },
   "keywords": [
@@ -38,7 +38,7 @@
     "mocha": "^5.2.0",
     "node-sass": "^4.9.0",
     "parcel": "^1.9.3",
-    "sinon": "^6.1.0",
+    "sinon": "^4.5.0",
     "sinon-chai": "^3.2.0",
     "vue-template-compiler": "^2.5.16"
   },

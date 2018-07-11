@@ -1,7 +1,7 @@
 <template>
-    <button class="g-button" :class="{[`icon-${iconPosition}`]: true}" @click="$emit('click')">
+    <button class="g-button shanjiayuwu" :class="{[`icon-${iconPosition}`]: true}" @click="$emit('click')">
         <g-icon v-if="icon&&!loading" :name="icon" class="icon" ></g-icon>
-        <g-icon name="loading" class="loading icon" v-if="loading"></g-icon>
+        <g-icon class="loading icon" v-if="loading"></g-icon>
         <div class="content">
             <slot></slot>
         </div>
@@ -73,7 +73,7 @@ console.log(1);
             > .icon{
                 order: 2;
                 margin-left: .1em;
-                margin-right: 0em;
+                margin-right: 0;
             }
             > .content{
                 order: 1;
