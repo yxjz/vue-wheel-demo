@@ -1,7 +1,11 @@
 <template>
     <div class="wrapper" :class="{error}">
-        <input type="text" :value = 'value' :disabled="disabled" :readonly="readonly" >
-        <template>
+        <input type="text" :value = 'value' :disabled="disabled" :readonly="readonly"
+               @change="$emit('change', $event.target.value)"
+               @input="$emit('input', $event.target.value)"
+               @focus="$emit('focus', $event.target.value)"
+               @blur="$emit('blur', $event.target.value)">
+        <template v-if="error">
             <icon name = 'error' class="icon-error"></icon>
             <span class="errorMessage">{{error}}</span>
         </template>
@@ -9,6 +13,7 @@
     </div>
 </template>
 <script>
+//    必须叫出发input事件和:value = 'value'，才能双向绑定
     import Icon from './icon.vue'
     export default{
         components:{Icon},
