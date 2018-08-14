@@ -21,11 +21,40 @@
             --border-color-hover: #666;
         }
 
+
     </style>
 
 </head>
 <body>
 <div id="app">
+    <div style="border: 1px solid black;">
+        <g-row gutter="10">
+            <g-col gutter="10">1</g-col>
+            <g-col gutter="10">11</g-col>
+
+        </g-row>
+        <g-row gutter="10">
+
+            <g-col >1</g-col>
+            <g-col >11</g-col>
+            <g-col >1</g-col>
+            <g-col >11</g-col>
+
+        </g-row>
+        <g-row >
+            <g-col >1
+            </g-col>
+            <g-col>11</g-col>
+
+        </g-row>
+    </div>
+
+    <!--<g-row>-->
+        <!--<g-col span="3">12</g-col>-->
+        <!--<g-col span="20" offset="1">112</g-col>-->
+
+    <!--</g-row>-->
+    <hr>
     <div>
         <g-input v-model="message"></g-input>
         <p>{{message}}</p>
